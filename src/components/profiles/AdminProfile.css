@@ -1,0 +1,13 @@
+.container-out {
+    display: flex;
+    justify-content: center;
+ }
+
+.profile-pic img {
+    border-radius: 50%;
+}
+
+.admin-name {
+    margin-left: 2.7rem;
+    justify-self: center;
+}

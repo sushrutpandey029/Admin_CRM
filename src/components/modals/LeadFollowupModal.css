@@ -1,0 +1,51 @@
+ 
+  .container-out {
+    /* margin-top: 27px; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* position: fixed; */
+     /* right:0; */
+    /* transform: translate(-50%, -50%); */
+    height: 100%;
+    width: 50%;
+    top:0%;
+    /* backdrop-filter: blur(5px); */
+
+    /* max-height: 600px; */
+    /* overflow-y: scroll; */
+    
+  }
+  
+  .container-in {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: cadetblue;
+     
+  }
+  
+  /* Apply backdrop blur effect */
+  /* .popup-container {
+    backdrop-filter: blur(5px);
+  } */
+
+  .btn {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px #ccc;
+    font-size: 1rem;
+}
+
+.btn-cancel {
+  /* background-color: rgb(245, 11, 11);
+  height: 2rem;
+  width: 2rem; */
+  border: none;
+  /* border-radius: 0.2rem; */
+  
+}
+
+.close-icon {
+  /* font-size: 2rem; */
+  font-weight: 700px;
+}

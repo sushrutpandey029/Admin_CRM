@@ -1,0 +1,41 @@
+.data-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.form-container {
+    width: 60%;
+}
+
+.profile img {
+     border-radius:50%;
+}
+
+.profile-icon img {
+    margin-left: 16px;
+    height: 40px;
+    width: 40px;
+}
+
+#admin-id {
+    font-size:larger;
+
+}
+
+/* .user-info {
+    display: flex;
+    flex-direction: column;
+    align-self:self-start;
+} */
+
+.verticle-line {
+    height: 80%;
+    width: 3px;
+    /* color: #000; */
+    background-color: #a5c5cb;
+    align-items: center;
+    justify-content: center;
+}
+

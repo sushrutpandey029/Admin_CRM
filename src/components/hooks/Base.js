@@ -1,0 +1,1 @@
+export const baseurl = 'https://milleniance-lms.onrender.com/api/v1/admin';

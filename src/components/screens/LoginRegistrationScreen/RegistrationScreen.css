@@ -1,0 +1,63 @@
+/* .popup-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.5);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  } */
+
+  .popup-container {
+    margin-top: 27px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 120%;
+    /* backdrop-filter: blur(5px); */
+
+    /* max-height: 600px; */
+    /* overflow-y: scroll; */
+    
+  }
+  
+  .popup {
+    /* background-color: white; */
+    /* margin-top:40px; */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Apply backdrop blur effect */
+  .popup-container {
+    backdrop-filter: blur(5px);
+  }
+
+  .btn {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px #ccc;
+    font-size: 1rem;
+}
+
+.btn-cancel {
+  /* background-color: rgb(245, 11, 11);
+  height: 2rem;
+  width: 2rem; */
+  border: none;
+  /* border-radius: 0.2rem; */
+  
+}
+
+.close-icon {
+  /* font-size: 2rem; */
+  font-weight: 700px;
+}

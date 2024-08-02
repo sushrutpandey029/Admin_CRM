@@ -1,0 +1,40 @@
+.popup-container {
+  position: fixed;
+  left: 60%;
+  overflow-y: scroll;
+}
+
+.popup {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  width: 65%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Apply backdrop blur effect */
+.popup-container {
+  backdrop-filter: blur(5px);
+}
+
+.btn {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px #ccc;
+  font-size: 1rem;
+}
+
+.btn-cancel {
+  border: none;
+}
+
+.close-icon {
+  font-weight: 700px;
+}
+
+h2 {
+  color: black;
+  font-weight: bold;
+}
